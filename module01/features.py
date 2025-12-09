@@ -18,6 +18,32 @@ def bucket_from_ts(ts_iso: str) -> str:
     return "day"
 
 def detect_tone(text: str) -> str:
+    """Prosta heurystyka tonu z obsługą fraz typu 'czarny humor' i rdzeni ('ironicz', 'sarkasty')."""
+    txt_low = text.lower()
+    tones = CONFIG["tone_keywords"]
+    for tone, words in tones.items():
+        for w in words:
+            if w in txt_low:
+                return tone
+    if "?" in text and "!" in text:
+        return "emocja"
+    if text.strip().endswith("?"):
+        return "pytanie"
+    return "neutral"
+
+    """Prosta heurystyka tonu z obsługą fraz typu 'czarny humor' i rdzeni ('ironicz', 'sarkasty')."""
+    txt_low = text.lower()
+    tones = CONFIG["tone_keywords"]
+    for tone, words in tones.items():
+        for w in words:
+            if w in txt_low:
+                return tone
+    if "?" in text and "!" in text:
+        return "emocja"
+    if text.strip().endswith("?"):
+        return "pytanie"
+    return "neutral"
+
     """Bardzo prosta heurystyka tonu."""
     txt_low = text.lower()
     tones = CONFIG["tone_keywords"]

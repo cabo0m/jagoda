@@ -23,9 +23,9 @@ project_anchor:
   keywords: ["Jagódko", "Jak się dziś Jagódko czujesz", "moduł", "projekt"]
 
 tone_keywords:
-  irony: ["ironia", "xd", "/s"]
+  irony: ["ironia", "ironicz", "sarkazm", "sarkasty", "czarny humor", "xd", "/s"]
   insult: ["idiota", "pacan", "debil"]
-  project: ["projekt", "moduł", "Jagódko"]
+  project: ["projekt", "moduł", "Jagódko", "Jak się dziś Jagódko czujesz"]
 
 logging:
-  csv_path: "data/logs/jagoda_mini.csv"
+  csv_path: "data/logs/jagoda.csv"
