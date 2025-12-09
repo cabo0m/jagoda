@@ -1,0 +1,31 @@
+# Jagoda Mini - config (MVP)
+thresholds:
+  like_low: 0.40
+  like_high: 0.70
+
+weights:
+  w_valence: 0.6
+  w_arousal: 0.2
+  w_dominance: 0.2
+  bias: 0.0
+
+time_bucket:
+  morning: [05, 11]
+  day: [11, 17]
+  evening: [17, 22]
+  night: [22, 24]
+
+humor_guard:
+  historical_allusion_ok: true
+  punish_pure_insult: true
+
+project_anchor:
+  keywords: ["Jagódko", "Jak się dziś Jagódko czujesz", "moduł", "projekt"]
+
+tone_keywords:
+  irony: ["ironia", "xd", "/s"]
+  insult: ["idiota", "pacan", "debil"]
+  project: ["projekt", "moduł", "Jagódko"]
+
+logging:
+  csv_path: "data/logs/jagoda_mini.csv"
