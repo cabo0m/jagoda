@@ -1,24 +1,13 @@
-2025-12-09T03:30:37;29;1;pytanie;0.00;0.00;0.00;0.00;N/A;neutralne pytanie
-2025-12-09T03:30:37;41;1;pytanie;0.00;0.00;0.00;0.00;N/A;ironia
-2025-12-09T03:30:37;23;1;insult;0.00;0.00;0.00;0.00;N/A;obelga
-2025-12-09T03:30:37;41;1;project;0.00;0.00;0.00;0.00;N/A;projekt
-2025-12-09T03:35:40;29;1;pytanie;0.00;0.00;0.00;0.00;N/A;neutralne pytanie
-2025-12-09T03:35:40;41;1;pytanie;0.00;0.00;0.00;0.00;N/A;ironia
-2025-12-09T03:35:40;23;1;insult;0.00;0.00;0.00;0.00;N/A;obelga
-2025-12-09T03:35:40;41;1;project;0.00;0.00;0.00;0.00;N/A;projekt
-2025-12-09T03:40:09;29;1;pytanie;0.00;0.00;0.00;0.00;N/A;neutralne pytanie
-2025-12-09T03:40:09;41;1;irony;0.00;0.00;0.00;0.00;N/A;ironia
-2025-12-09T03:40:09;23;1;insult;0.00;0.00;0.00;0.00;N/A;obelga
-2025-12-09T03:40:09;41;1;project;0.00;0.00;0.00;0.00;N/A;projekt
-2025-12-09T03:45:12;29;1;pytanie;0.00;0.30;0.40;0.54;Partner-Mode;tone=pytanie; time_bucket=day; len=29; valence=0.0; arousal=0.3; dominance=0.4; like=0.535
-2025-12-09T03:45:12;41;1;irony;0.05;0.40;0.40;0.55;Partner-Mode;tone=irony; time_bucket=day; len=41; valence=0.05; arousal=0.4; dominance=0.4; like=0.547
-2025-12-09T03:45:12;23;1;insult;-0.60;0.40;0.25;0.44;Partner-Mode;tone=insult; time_bucket=day; len=23; penalty(insult); valence=-0.6; arousal=0.4; dominance=0.25; like=0.443
-2025-12-09T03:45:12;41;1;project;0.15;0.30;0.60;0.60;Partner-Mode;tone=project; time_bucket=day; len=41; project_anchor(+); valence=0.15; arousal=0.3; dominance=0.6; like=0.603
-2025-12-09T03:50:23;29;1;pytanie;0.00;0.30;0.40;0.53;Partner-Mode;tone=pytanie; time_bucket=day; len=29; valence=0.0; arousal=0.3; dominance=0.4; like=0.527
-2025-12-09T03:50:23;41;1;irony;0.08;0.40;0.40;0.54;Partner-Mode;tone=irony; time_bucket=day; len=41; valence=0.08; arousal=0.4; dominance=0.4; like=0.544
-2025-12-09T03:50:23;23;1;insult;-0.80;0.40;0.20;0.38;Task-Mode;tone=insult; time_bucket=day; len=23; penalty(insult); valence=-0.8; arousal=0.4; dominance=0.2; like=0.382
-2025-12-09T03:50:23;41;1;project;0.20;0.30;0.65;0.61;Flow-Mode;tone=project; time_bucket=day; len=41; project_anchor(+); valence=0.2; arousal=0.3; dominance=0.65; like=0.611
-2025-12-09T03:56:22;41;1;project;0.20;0.30;0.65;0.61;Flow-Mode;tone=project; time_bucket=day; len=41; project_anchor(+); valence=0.2; arousal=0.3; dominance=0.65; like=0.611
-2025-12-09T03:57:07;34;2;pytanie;0.00;0.30;0.40;0.53;Partner-Mode;tone=pytanie; time_bucket=day; len=34; valence=0.0; arousal=0.3; dominance=0.4; like=0.527
-2025-12-09T03:57:34;11;1;neutral;0.05;0.30;0.45;0.54;Partner-Mode;tone=neutral; time_bucket=day; len=11; valence=0.05; arousal=0.3; dominance=0.45; like=0.539
-2025-12-09T03:59:51;11;1;neutral;0.05;0.30;0.45;0.54;Partner-Mode;tone=neutral; time_bucket=day; len=11; valence=0.05; arousal=0.3; dominance=0.45; like=0.539
+timestamp;msg_len;sentences;tone;valence;arousal;dominance;like_score;policy;why
+2025-12-09T21:35:43;41;1;project;0.20;0.35;0.65;0.61;Flow-Mode;tone=project; time_bucket=evening; len=41; project_anchor(+); valence=0.2; arousal=0.35; dominance=0.65; like=0.612
+2025-12-09T21:35:43;48;1;project;0.20;0.35;0.65;0.61;Flow-Mode;tone=project; time_bucket=evening; len=48; project_anchor(+); valence=0.2; arousal=0.35; dominance=0.65; like=0.612
+2025-12-09T21:35:43;23;1;insult;-0.80;0.45;0.20;0.38;Task-Mode;tone=insult; time_bucket=evening; len=23; penalty(insult); valence=-0.8; arousal=0.45; dominance=0.2; like=0.383
+2025-12-09T21:35:44;40;1;pytanie;0.00;0.35;0.35;0.53;Partner-Mode;tone=pytanie; time_bucket=evening; len=40; valence=0.0; arousal=0.35; dominance=0.35; like=0.526
+2025-12-09T21:38:20;41;1;project;0.20;0.35;0.65;0.61;Flow-Mode;tone=project; time_bucket=evening; len=41; project_anchor(+); valence=0.2; arousal=0.35; dominance=0.65; like=0.612
+2025-12-09T21:38:20;48;1;project;0.20;0.35;0.65;0.61;Flow-Mode;tone=project; time_bucket=evening; len=48; project_anchor(+); valence=0.2; arousal=0.35; dominance=0.65; like=0.612
+2025-12-09T21:38:20;23;1;insult;-0.80;0.45;0.20;0.38;Task-Mode;tone=insult; time_bucket=evening; len=23; penalty(insult); valence=-0.8; arousal=0.45; dominance=0.2; like=0.383
+2025-12-09T21:38:20;40;1;pytanie;0.00;0.35;0.35;0.53;Partner-Mode;tone=pytanie; time_bucket=evening; len=40; valence=0.0; arousal=0.35; dominance=0.35; like=0.526
+2025-12-09T21:47:16;41;1;project;0.20;0.35;0.65;0.61;Flow-Mode;tone=project; time_bucket=evening; len=41; project_anchor(+); mood_ema=0.5; like_adj=0.0; val_adj=0.0; valence=0.2; arousal=0.35; dominance=0.65; like=0.612; policy=Flow-Mode
+2025-12-09T21:47:16;48;1;project;0.21;0.35;0.65;0.62;Flow-Mode;tone=project; time_bucket=evening; len=48; project_anchor(+); mood_ema=0.612; like_adj=0.009; val_adj=0.006; valence=0.206; arousal=0.35; dominance=0.65; like=0.621; policy=Flow-Mode
+2025-12-09T21:47:16;23;1;insult;-0.79;0.45;0.20;0.39;Task-Mode;tone=insult; time_bucket=evening; len=23; penalty(insult); mood_ema=0.615; like_adj=0.009; val_adj=0.006; valence=-0.794; arousal=0.45; dominance=0.2; like=0.392; policy=Task-Mode
+2025-12-09T21:47:16;40;1;pytanie;0.00;0.35;0.35;0.53;Partner-Mode;tone=pytanie; time_bucket=evening; len=40; mood_ema=0.548; like_adj=0.004; val_adj=0.002; valence=0.002; arousal=0.35; dominance=0.35; like=0.53; policy=Partner-Mode

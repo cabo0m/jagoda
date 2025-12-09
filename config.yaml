@@ -1,6 +1,5 @@
-# Jagoda Mini - config (MVP)
 thresholds:
-  like_low: 0.40
+  like_low: 0.48
   like_high: 0.60
 
 weights:
@@ -10,7 +9,7 @@ weights:
   bias: 0.0
 
 time_bucket:
-  morning: [05, 11]
+  morning: [5, 11]
   day: [11, 17]
   evening: [17, 22]
   night: [22, 24]
@@ -20,25 +19,51 @@ humor_guard:
   punish_pure_insult: true
 
 project_anchor:
-  keywords: ["Jagódko", "Jak się dziś Jagódko czujesz", "moduł", "projekt"]
-
-# config.yaml — dopisz na końcu
-mood:
-  file: "data/mood.json"     # gdzie trzymamy stan nastroju
-  alpha: 0.30                # EMA: im wyżej, tym szybciej reaguje
-  k_like: 0.08               # jak mocno nastrój koryguje like_score
-  k_valence: 0.05            # opcjonalny, subtelny wpływ na valence
-  decay_if_idle_hours: 12    # po ilu godzinach bez ruchu nastrój łagodnie wraca do środka
-  reset_to: 0.50             # środek nastroju, gdy wygaszamy
-
+  keywords:
+    - "Jagódko"
+    - "Jak się dziś Jagódko czujesz"
+    - "moduł"
+    - "projekt"
+    - "plan"
+    - "repo"
+    - "commit"
 
 tone_keywords:
-  irony: ["ironia", "ironicz", "sarkazm", "sarkasty", "czarny humor", "xd", "/s", "żart", "żarcik"]
-  insult: ["idiota", "pacan", "debil", "kretyn", "baran"]
-  project: ["projekt", "moduł", "Jagódko", "Jak się dziś Jagódko czujesz", "plan", "test", "repo", "commit"]
-  neutral: ["hej", "ok", "dobra", "jasne", "spoko"]
-  positive: ["świetnie", "super", "zajebiście", "dobrze", "doskonale", "elegancko]
-  negative: ["nie działa", "błąd", "problem", "porażka", "fatalnie", "dupa", "dup", "chuj", "ciota"]
+  irony:
+    - "ironia"
+    - "ironicz"
+    - "sarkazm"
+    - "sarkasty"
+    - "czarny humor"
+    - "xd"
+    - "/s"
+    - "żart"
+    - "żarcik"
+  insult:
+    - "idiota"
+    - "pacan"
+    - "debil"
+    - "kretyn"
+    - "baran"
+    - "ciota"
+    - "ciul"
+  project:
+    - "projekt"
+    - "moduł"
+    - "Jagódko"
+    - "Jak się dziś Jagódko czujesz"
+    - "plan"
+    - "test"
+    - "repo"
+    - "commit"
 
 logging:
   csv_path: "data/logs/jagoda.csv"
+
+mood:
+  file: "data/mood.json"
+  alpha: 0.30
+  k_like: 0.08
+  k_valence: 0.05
+  decay_if_idle_hours: 12
+  reset_to: 0.50
