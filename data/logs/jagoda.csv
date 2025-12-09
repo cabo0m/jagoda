@@ -10,3 +10,15 @@
 2025-12-09T03:40:09;41;1;irony;0.00;0.00;0.00;0.00;N/A;ironia
 2025-12-09T03:40:09;23;1;insult;0.00;0.00;0.00;0.00;N/A;obelga
 2025-12-09T03:40:09;41;1;project;0.00;0.00;0.00;0.00;N/A;projekt
+2025-12-09T03:45:12;29;1;pytanie;0.00;0.30;0.40;0.54;Partner-Mode;tone=pytanie; time_bucket=day; len=29; valence=0.0; arousal=0.3; dominance=0.4; like=0.535
+2025-12-09T03:45:12;41;1;irony;0.05;0.40;0.40;0.55;Partner-Mode;tone=irony; time_bucket=day; len=41; valence=0.05; arousal=0.4; dominance=0.4; like=0.547
+2025-12-09T03:45:12;23;1;insult;-0.60;0.40;0.25;0.44;Partner-Mode;tone=insult; time_bucket=day; len=23; penalty(insult); valence=-0.6; arousal=0.4; dominance=0.25; like=0.443
+2025-12-09T03:45:12;41;1;project;0.15;0.30;0.60;0.60;Partner-Mode;tone=project; time_bucket=day; len=41; project_anchor(+); valence=0.15; arousal=0.3; dominance=0.6; like=0.603
+2025-12-09T03:50:23;29;1;pytanie;0.00;0.30;0.40;0.53;Partner-Mode;tone=pytanie; time_bucket=day; len=29; valence=0.0; arousal=0.3; dominance=0.4; like=0.527
+2025-12-09T03:50:23;41;1;irony;0.08;0.40;0.40;0.54;Partner-Mode;tone=irony; time_bucket=day; len=41; valence=0.08; arousal=0.4; dominance=0.4; like=0.544
+2025-12-09T03:50:23;23;1;insult;-0.80;0.40;0.20;0.38;Task-Mode;tone=insult; time_bucket=day; len=23; penalty(insult); valence=-0.8; arousal=0.4; dominance=0.2; like=0.382
+2025-12-09T03:50:23;41;1;project;0.20;0.30;0.65;0.61;Flow-Mode;tone=project; time_bucket=day; len=41; project_anchor(+); valence=0.2; arousal=0.3; dominance=0.65; like=0.611
+2025-12-09T03:56:22;41;1;project;0.20;0.30;0.65;0.61;Flow-Mode;tone=project; time_bucket=day; len=41; project_anchor(+); valence=0.2; arousal=0.3; dominance=0.65; like=0.611
+2025-12-09T03:57:07;34;2;pytanie;0.00;0.30;0.40;0.53;Partner-Mode;tone=pytanie; time_bucket=day; len=34; valence=0.0; arousal=0.3; dominance=0.4; like=0.527
+2025-12-09T03:57:34;11;1;neutral;0.05;0.30;0.45;0.54;Partner-Mode;tone=neutral; time_bucket=day; len=11; valence=0.05; arousal=0.3; dominance=0.45; like=0.539
+2025-12-09T03:59:51;11;1;neutral;0.05;0.30;0.45;0.54;Partner-Mode;tone=neutral; time_bucket=day; len=11; valence=0.05; arousal=0.3; dominance=0.45; like=0.539
